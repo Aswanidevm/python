@@ -4,3 +4,7 @@ def say_hello():
     for i in range(x):
         print(i)
 say_hello()
+
+
+print ("second time")
+say_hello()
