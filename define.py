@@ -1,3 +1,6 @@
 def say_hello():
     print('hello')
-    say_hello()
+    x = 5
+    for i in range(x):
+        print(i)
+say_hello()
