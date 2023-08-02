@@ -1,11 +1,13 @@
 #encapsulation
 #abstraction
 #inheritance
-#polymorpism
+#polymorpism many forms
 
 class User():
-    def sign_in(selfself):
+    def sign_in(self):
         print("Logged in")
+    def attack():
+        print("nothing")
 
 class Wizard(User):
     def __init__(self, name, power):
@@ -13,6 +15,7 @@ class Wizard(User):
         self.power = power
 
     def attack(self):
+        User.attack()
         print(f"the power of Wizard {self.name} is {self.power}")
 
 
